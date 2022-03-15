@@ -1,0 +1,23 @@
+
+Solution
+metrics to monitor:
+server general metrics :
+
+Sever running state
+
+CPU,CPU used,CPU load,CPU temperature,Memeroy usage,I/O,Disk space usage,IO read, IO write,Network,Network traffic,TCP connection states
+
+application metrics :
+
+SSL certificate validate status
+
+to monitor metrics:
+we used monitor Platform zabbix
+
+
+challenges of monitoring
+1.Figure out important metrics to monitor
+
+2.Metrics monitoring tool should not effect the server's performance. When use script method to monitor,history performance value storaging is very time consuming(read and write file)
+
+3.Set proper trigger warning value to minimize false alarm.
